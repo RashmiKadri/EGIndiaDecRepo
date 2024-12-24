@@ -21,6 +21,7 @@ namespace SpecFlowProject1.StepDefinitions
         [Given(@"Load the XYZ bank url")]
         public void GivenLoadTheXYZBankUrl()
         {
+            //load url
             _driver.Navigate().GoToUrl("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
             _driver.Manage().Window.Maximize();
             Thread.Sleep(2000);
