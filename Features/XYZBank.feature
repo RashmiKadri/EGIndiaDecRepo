@@ -1,6 +1,6 @@
 ﻿Feature: XYZBank
 
-XYZ bank login
+XYZ bank login feature file
 
  Background: 
  	Given Load the XYZ bank url
