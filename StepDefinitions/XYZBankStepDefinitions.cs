@@ -12,7 +12,6 @@ namespace SpecFlowProject1.StepDefinitions
     {
         private readonly ScenarioContext _scenarioContext;
         private IWebDriver _driver = null;
-
         public XYZBankStepDefinitions(ScenarioContext scenarioContext)
         {
             _scenarioContext = scenarioContext;
